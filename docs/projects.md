@@ -1,54 +1,51 @@
 # Projects
 
-Here are the key projects we're working on to enhance Medispeak's capabilities. We welcome contributions and discussions on these initiatives!
+Welcome to Medispeak's project hub! Here you'll find our ongoing initiatives to enhance Medispeak's capabilities. Each project is carefully documented with complexity levels, time estimates, and clear milestones.
 
-## Support for Open Source AI Models
+## Available Projects
+
+### [Open Source AI Models Integration](/docs/projects/open-source-ai)
+- **Complexity**: Large
+- **Time**: 120-160 hours
+- **Focus**: Backend
 - Integration with various open-source AI models for transcription and understanding
-- Support for local model deployment
-- Customizable model training for specific medical specialties
-- Performance optimization for different hardware configurations
 
-## Self Hosted Whisper Support
-- Local deployment of Whisper models
-- Custom model fine-tuning capabilities
-- Offline transcription support
-- Resource usage optimization
-- Docker container support
+### [Self Hosted Whisper Support](/docs/projects/self-hosted-whisper)
+- **Complexity**: Medium
+- **Time**: 80-100 hours
+- **Focus**: Backend
+- Local deployment of Whisper models with offline support
 
-## Multiple Recording Support
-- Recording recoding multiple voice notes, and then transcribing them all at once.
-- Session management for multiple recordings
-- Batch processing capabilities
-- Audio quality optimization
+### [Multiple Recording Support](/docs/projects/multiple-recording)
+- **Complexity**: Medium
+- **Time**: 60-80 hours
+- **Focus**: Frontend
+- Recording and batch processing multiple voice notes
 
-## UI Based Setup of New Pages
-- Smartly populate fields based on the HTML of the current page
-- Ability to fully setup the form template from the Extension UI
-- Template management system
-- Real-time preview capabilities
-- Export/import configuration
+### [UI Based Setup of New Pages](/docs/projects/ui-setup)
+- **Complexity**: Large
+- **Time**: 100-120 hours
+- **Focus**: Frontend
+- Smart field detection and template management
 
-## Smart Navigation of EMR
-- Voice-controlled EMR navigation
-- Context-aware command interpretation
-- Customizable navigation shortcuts
-- Smart field detection
-- Adaptive learning from user patterns
+### [Smart Navigation of EMR](/docs/projects/smart-navigation)
+- **Complexity**: Medium
+- **Time**: 80-100 hours
+- **Focus**: Frontend
+- Voice-controlled EMR navigation with context awareness
 
-## Live Transcription with Whisper
-- Real-time audio streaming to Whisper
-- Low-latency transcription
-- Continuous transcription mode
-- Automatic punctuation and formatting
-- Error correction on the fly
+### [Live Transcription with Whisper](/docs/projects/live-transcription)
+- **Complexity**: Large
+- **Time**: 100-120 hours
+- **Focus**: Backend
+- Real-time audio streaming and transcription
 
 ## Getting Involved
 
-If you're interested in contributing to any of these projects:
-1. Check our [Contributing Guidelines](/docs/contribute)
-2. Join the discussion in our [GitHub Discussions](https://github.com/medispeak/discussions)
-3. Pick a project that interests you
-4. Start with our development setup guide
+1. Browse through the projects above
+2. Check our [Contributing Guidelines](/docs/contribute)
+3. Join discussions in [GitHub Discussions](https://github.com/medispeak/discussions)
+4. Pick a project that matches your skills and interests
 
 We prioritize contributions based on:
 - Community needs

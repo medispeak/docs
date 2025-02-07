@@ -2,19 +2,6 @@
 
 This document provides a comprehensive overview of Medispeak's architecture, explaining how different components work together to provide seamless voice-to-EMR functionality.
 
-## System Architecture
-
-```mermaid
-graph TD
-    A[Chrome Extension/Web Widget] -->|Voice Input| B[Frontend App]
-    B -->|API Requests| C[Rails Backend]
-    C -->|Speech Processing| D[AI Service]
-    D -->|Structured Data| C
-    C -->|EMR Integration| E[EMR System]
-    C -->|Cache| F[Redis]
-    C -->|Storage| G[PostgreSQL]
-```
-
 ## Component Overview
 
 ### 1. Frontend Components
@@ -25,10 +12,8 @@ graph TD
   - Voice capture and processing
   - EMR field detection
   - Real-time feedback
-  - Offline capability
 - **Integration Points**:
   - Chrome Extension API
-  - WebRTC for audio
   - Backend API communication
 
 #### Web Widget
@@ -39,7 +24,6 @@ graph TD
   - Event-driven architecture
 - **Integration**:
   - Custom events system
-  - iframe communication
   - PostMessage API
 
 ### 2. Backend Services
