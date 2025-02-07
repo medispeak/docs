@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background shape -->
+    <path
+        d="M15 20C15 15 20 10 25 10C30 10 32 15 35 15C38 15 40 10 45 10C50 10 55 15 55 20C55 25 50 25 50 30C50 35 55 35 55 40C55 45 50 50 45 50C40 50 38 45 35 45C32 45 30 50 25 50C20 50 15 45 15 40C15 35 20 35 20 30C20 25 15 25 15 20Z"
+        fill="#DAE9FD" fill-opacity="0.3" />
+
+    <!-- Main brain outline -->
+    <path
+        d="M15 20C15 15 20 10 25 10C30 10 32 15 35 15C38 15 40 10 45 10C50 10 55 15 55 20C55 25 50 25 50 30C50 35 55 35 55 40C55 45 50 50 45 50C40 50 38 45 35 45C32 45 30 50 25 50C20 50 15 45 15 40C15 35 20 35 20 30C20 25 15 25 15 20Z"
+        stroke="#2F2AFF" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Internal connections -->
+    <path
+        d="M20 30H50M35 15V45M25 20C25 18 27 15 30 15M45 20C45 18 43 15 40 15M25 40C25 42 27 45 30 45M45 40C45 42 43 45 40 45"
+        stroke="#2F2AFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Connection nodes -->
+    <circle cx="35" cy="15" r="2" fill="#DAE9FD" stroke="#2F2AFF" stroke-width="1.5" />
+    <circle cx="35" cy="45" r="2" fill="#DAE9FD" stroke="#2F2AFF" stroke-width="1.5" />
+    <circle cx="20" cy="30" r="2" fill="#DAE9FD" stroke="#2F2AFF" stroke-width="1.5" />
+    <circle cx="50" cy="30" r="2" fill="#DAE9FD" stroke="#2F2AFF" stroke-width="1.5" />
+</svg>
