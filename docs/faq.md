@@ -9,22 +9,14 @@ Medispeak is an open-source voice-to-EMR documentation tool that enables healthc
 Medispeak uses advanced AI technology to convert spoken medical notes into structured data that can be automatically inserted into appropriate EMR fields. It combines speech recognition, medical terminology processing, and context understanding to provide accurate documentation.
 
 ### Which EMR systems are compatible with Medispeak?
-Medispeak offers:
-- **Native Integration** with:
+
+You can configure Medispeak to work with any web-based EMR by following our [setup guide](/docs/installation).
+
+We have already configured Medispeak to work with the following EMRs:
   - Open Healthcare Network's CARE
   - Bahmni Open Source EMR
-- **Custom Integration** with any web-based EMR through the Medispeak Admin interface
 
-### How do I set up integration with my EMR?
-- For CARE and Bahmni: Simply specify the EMR system in your configuration
-- For other web-based EMRs:
-  1. Access the Medispeak Admin interface
-  2. Configure your EMR connection details
-  3. Set up field mappings
-  4. Test and deploy the configuration
-
-### Is Medispeak HIPAA compliant?
-Yes, Medispeak is designed with HIPAA compliance in mind. All data transmission is encrypted, and we follow strict privacy and security protocols to protect patient information.
+- Feel free to reach out to us via email at support@medispeak.in to get access to the EMR configurations.
 
 ## Installation & Setup
 
@@ -54,7 +46,13 @@ Yes, you can customize field mappings:
 Yes, you can edit any transcribed text manually. Medispeak provides a review interface where you can make corrections before submitting to the EMR.
 
 ### What languages are supported?
-Currently, Medispeak primarily supports English, with plans to add support for additional languages. See our [Future Projects](/docs/projects) page for more information.
+Since Medispeak is built on top of OpenAI's Whisper, it supports all the  languages that Whisper supports.
+
+Whisper currently support the following languages:
+
+Afrikaans, Arabic, Armenian, Azerbaijani, Belarusian, Bosnian, Bulgarian, Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Macedonian, Malay, Marathi, Maori, Nepali, Norwegian, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swahili, Swedish, Tagalog, Tamil, Thai, Turkish, Ukrainian, Urdu, Vietnamese, and Welsh.
+
+While we have tested Medispeak on other languages such as Malayalam, Kannada, Telugu, Tamil, etc, we do not officially support them yet.
 
 ### How accurate is the voice recognition?
 Medispeak achieves over 95% accuracy for medical terminology in optimal conditions. Accuracy can be improved by:
@@ -63,24 +61,7 @@ Medispeak achieves over 95% accuracy for medical terminology in optimal conditio
 - Minimizing background noise
 - Regular system training
 
-### Can I use Medispeak offline?
-The Chrome extension has limited offline capabilities for voice capture, but internet connectivity is required for processing and EMR integration.
-
 ## EMR Integration
-
-### How does the CARE integration work?
-The CARE integration is built-in and provides:
-- Automatic field detection
-- Pre-configured mappings
-- Seamless data synchronization
-- Real-time updates
-
-### How does the Bahmni integration work?
-Bahmni integration features:
-- Native form detection
-- Automatic field mapping
-- Support for custom forms
-- Direct data population
 
 ### Can I integrate with other EMR systems?
 Yes, any web-based EMR can be integrated using the Medispeak Admin interface:
@@ -95,8 +76,6 @@ Yes, any web-based EMR can be integrated using the Medispeak Admin interface:
 - End-to-end encryption
 - Secure data transmission
 - Regular security audits
-- HIPAA-compliant storage
-- Automatic data purging
 
 ### Where is the data processed?
 Voice processing and data structuring happen on secure servers. For supported EMRs, data is directly transmitted to your EMR system through secure channels.
@@ -105,8 +84,8 @@ Voice processing and data structuring happen on secure servers. For supported EM
 
 ### How do I get help?
 - Check our [documentation](/docs/intro)
-- Visit our [GitHub Issues](https://github.com/medispeak/issues)
-- Join our [Community Discussions](https://github.com/medispeak/discussions)
+- Visit our [GitHub Issues](https://github.com/medispeak/medispeak-app/issues)
+- Join our [Community Discussions](https://github.com/medispeak/medispeak-app/discussions)
 - Contact support team
 
 ### How do I report bugs?
@@ -134,7 +113,6 @@ Voice processing and data structuring happen on secure servers. For supported EM
 ### What skills are needed to contribute?
 - Frontend: React, TypeScript
 - Backend: Ruby on Rails
-- AI/ML: Python, TensorFlow
 - Documentation
 - Testing
 

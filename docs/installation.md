@@ -42,11 +42,33 @@ This guide will help you set up Medispeak in your preferred environment.
      Medispeak.init({
        container: 'medispeak-container',
        apiKey: 'your-api-key',
-       emrSystem: 'your-emr-system'
+       emrSystem: 'care', // or 'bahmni' for Bahmni EMR
+       emrConfig: {
+         // Optional custom configuration for other web-based EMRs
+         baseUrl: 'your-emr-base-url',
+         fieldMappings: {
+           // Custom field mappings
+         }
+       }
      });
    </script>
    ```
 
+## EMR Configuration
+
+You can configure Medispeak to work with any web-based EMR by:
+
+1. Access Medispeak Admin interface
+2. Configure EMR connection details
+3. Set up field mappings
+4. Test the integration
+5. Deploy configuration
+
+### Supported EMRs
+
+#### CARE (Open Healthcare Network)
+#### Bahmni EMR
+> Feel free to reach out to us to get access to the EMR configurations.
 ## Configuration Options
 
 ### Widget Options
@@ -74,6 +96,7 @@ This guide will help you set up Medispeak in your preferred environment.
    - Verify API credentials
    - Check network connectivity
    - Validate field mappings
+   - Ensure EMR system is supported or properly configured
 
 3. **Performance Issues**
    - Clear browser cache
@@ -90,7 +113,6 @@ If you encounter issues:
 ## Security Considerations
 
 - Keep API keys secure
-- Follow HIPAA compliance guidelines
 - Regularly update dependencies
 - Monitor system logs
 - Enable appropriate security headers

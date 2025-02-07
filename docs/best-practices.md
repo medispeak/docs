@@ -77,9 +77,8 @@ This guide outlines best practices for using Medispeak effectively in your healt
 ## Privacy and Security
 
 ### 1. Patient Information
-- Verify patient identity before recording
+- Do not record patient information without consent
 - Be mindful of surroundings
-- Follow HIPAA guidelines
 - Protect sensitive information
 
 ### 2. Access Control

@@ -85,7 +85,6 @@ graph TD
   specialties
   ```
 - **Key Features**:
-  - HIPAA compliance
   - Audit logging
   - Data encryption
   - Performance optimization
@@ -145,7 +144,6 @@ sequenceDiagram
 ### 2. Data Protection
 - End-to-end encryption
 - At-rest encryption
-- HIPAA compliance
 - Audit logging
 
 ### 3. Network Security

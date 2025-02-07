@@ -9,7 +9,9 @@ Medispeak is an innovative open-source project that revolutionizes how healthcar
 ## Key Features
 
 - **Voice-to-EMR Integration**: Seamlessly convert spoken medical notes into structured EMR data
-- **Universal Compatibility**: Works with any EMR system through Chrome extension or web app embedding
+- **EMR Compatibility**: 
+  - Native support for Open Healthcare Network's CARE and Bahmni Open Source EMR
+  - Compatible with any web-based EMR through Medispeak Admin configuration
 - **Smart Data Population**: Intelligent field mapping and context recognition for accurate documentation
 - **Privacy-First Design**: Secure handling of sensitive medical information
 - **Open Source**: Community-driven development for continuous improvement
@@ -21,7 +23,9 @@ Medispeak is an innovative open-source project that revolutionizes how healthcar
    - Real-time transcription of speech to text
    - Medical terminology recognition
    - Context-aware structuring of information
-3. **EMR Integration**: Automatically fills appropriate EMR fields with structured data
+3. **EMR Integration**: 
+   - Direct integration with supported EMRs (CARE, Bahmni)
+   - Custom field mapping for other web-based EMRs
 4. **Review & Confirm**: Quick review interface for verifying and editing entries
 
 ## Getting Started
@@ -48,6 +52,7 @@ Medispeak consists of two main components:
 2. **Backend**:
    - Ruby on Rails server
    - AI models for transcription and structuring
-   - EMR integration APIs
+   - EMR integration APIs with built-in support for CARE and Bahmni
+   - Configurable integration for other web-based EMRs
 
 For technical details, visit our [Architecture Overview](/docs/architecture).
