@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.7.0">
 <title data-rh="true">Introduction to Medispeak | Medispeak</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.medispeak.io/img/medispeak_log.svg"><meta data-rh="true" name="twitter:image" content="https://docs.medispeak.io/img/medispeak_log.svg"><meta data-rh="true" property="og:url" content="https://docs.medispeak.io/docs/intro"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Introduction to Medispeak | Medispeak"><meta data-rh="true" name="description" content="Medispeak is an innovative open-source project that revolutionizes how healthcare professionals interact with Electronic Medical Record (EMR) systems. By leveraging advanced AI technology, Medispeak enables doctors and nurses to use their voice to fill in EMR records efficiently and accurately."><meta data-rh="true" property="og:description" content="Medispeak is an innovative open-source project that revolutionizes how healthcare professionals interact with Electronic Medical Record (EMR) systems. By leveraging advanced AI technology, Medispeak enables doctors and nurses to use their voice to fill in EMR records efficiently and accurately."><link data-rh="true" rel="icon" href="/img/medispeak_log.svg"><link data-rh="true" rel="canonical" href="https://docs.medispeak.io/docs/intro"><link data-rh="true" rel="alternate" href="https://docs.medispeak.io/docs/intro" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.medispeak.io/docs/intro" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.2bb634e0.css">
-<script src="/assets/js/runtime~main.9eecaf9d.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.dd70b335.js" defer="defer"></script>
 <script src="/assets/js/main.f2c79c26.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -13,7 +13,12 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features">​</a></h2>
 <ul>
 <li><strong>Voice-to-EMR Integration</strong>: Seamlessly convert spoken medical notes into structured EMR data</li>
-<li><strong>Universal Compatibility</strong>: Works with any EMR system through Chrome extension or web app embedding</li>
+<li><strong>EMR Compatibility</strong>:<!-- -->
+<ul>
+<li>Native support for Open Healthcare Network&#x27;s CARE and Bahmni Open Source EMR</li>
+<li>Compatible with any web-based EMR through Medispeak Admin configuration</li>
+</ul>
+</li>
 <li><strong>Smart Data Population</strong>: Intelligent field mapping and context recognition for accurate documentation</li>
 <li><strong>Privacy-First Design</strong>: Secure handling of sensitive medical information</li>
 <li><strong>Open Source</strong>: Community-driven development for continuous improvement</li>
@@ -28,7 +33,12 @@
 <li>Context-aware structuring of information</li>
 </ul>
 </li>
-<li><strong>EMR Integration</strong>: Automatically fills appropriate EMR fields with structured data</li>
+<li><strong>EMR Integration</strong>:<!-- -->
+<ul>
+<li>Direct integration with supported EMRs (CARE, Bahmni)</li>
+<li>Custom field mapping for other web-based EMRs</li>
+</ul>
+</li>
 <li><strong>Review &amp; Confirm</strong>: Quick review interface for verifying and editing entries</li>
 </ol>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started">​</a></h2>
@@ -55,7 +65,8 @@
 <ul>
 <li>Ruby on Rails server</li>
 <li>AI models for transcription and structuring</li>
-<li>EMR integration APIs</li>
+<li>EMR integration APIs with built-in support for CARE and Bahmni</li>
+<li>Configurable integration for other web-based EMRs</li>
 </ul>
 </li>
 </ol>
