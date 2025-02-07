@@ -10,7 +10,7 @@ Medispeak is an innovative open-source project that revolutionizes how healthcar
 
 - **Voice-to-EMR Integration**: Seamlessly convert spoken medical notes into structured EMR data
 - **Universal Compatibility**: Works with any EMR system through Chrome extension or web app embedding
-- **AI-Powered Understanding**: Advanced AI models for accurate medical transcription and data structuring
+- **Smart Data Population**: Intelligent field mapping and context recognition for accurate documentation
 - **Privacy-First Design**: Secure handling of sensitive medical information
 - **Open Source**: Community-driven development for continuous improvement
 
@@ -26,9 +26,7 @@ Medispeak is an innovative open-source project that revolutionizes how healthcar
 
 ## Getting Started
 
-To start using Medispeak, you can either:
-- [Install the Chrome Extension](/docs/installation#chrome-extension)
-- [Embed Medispeak in your WebApp](/docs/installation#webapp-integration)
+Medispeak can be used either as a Chrome extension or embedded in your web application. For detailed setup instructions, visit our [Installation Guide](/docs/installation).
 
 ## Why Medispeak?
 

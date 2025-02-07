@@ -1,6 +1,30 @@
 # Installation Guide
 
-This guide will help you set up Medispeak in your web application.
+This guide will help you set up Medispeak in your preferred environment.
+
+## Chrome Extension (Developer Mode)
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/medispeak/extension.git
+   cd extension
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Build the extension:
+   ```bash
+   npm run build
+   ```
+
+4. Load in Chrome:
+   - Open Chrome and go to `chrome://extensions/`
+   - Enable "Developer mode" in the top right
+   - Click "Load unpacked"
+   - Select the `build` directory from the extension folder
 
 ## WebApp Integration
 
@@ -30,6 +54,12 @@ This guide will help you set up Medispeak in your web application.
 - Voice recognition settings
 - EMR integration settings
 - UI customization
+
+### Extension Options
+- Voice recognition sensitivity
+- EMR field mapping
+- Keyboard shortcuts
+- Privacy settings
 
 ## Troubleshooting
 

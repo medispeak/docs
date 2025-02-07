@@ -18,9 +18,9 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "medispeak", // Usually your GitHub org/user name.
-  projectName: "medispeak-docs", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -37,23 +37,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/medispeak/medispeak-docs/tree/main/",
-        },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/medispeak/medispeak-docs/tree/main/",
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
+          editUrl: "https://github.com/medispeak/docs/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -63,7 +47,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with Medispeak's social card
     image: "img/medispeak_log.svg",
     navbar: {
       title: "Medispeak",
@@ -88,7 +71,6 @@ const config: Config = {
           label: "Contribute",
           position: "left",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/medispeak",
           label: "GitHub",
@@ -109,10 +91,6 @@ const config: Config = {
             {
               label: "Installation",
               to: "/docs/installation",
-            },
-            {
-              label: "API Reference",
-              to: "/docs/api",
             },
           ],
         },
@@ -136,10 +114,6 @@ const config: Config = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
             {
               label: "GitHub",
               href: "https://github.com/medispeak",
