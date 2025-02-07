@@ -16,16 +16,15 @@ Here are the key projects we're working on to enhance Medispeak's capabilities. 
 - Docker container support
 
 ## Multiple Recording Support
-- Simultaneous recording from multiple sources
-- Support for different audio input devices
+- Recording recoding multiple voice notes, and then transcribing them all at once.
 - Session management for multiple recordings
 - Batch processing capabilities
 - Audio quality optimization
 
 ## UI Based Setup of New Pages
-- Drag-and-drop interface for page creation
+- Smartly populate fields based on the HTML of the current page
+- Ability to fully setup the form template from the Extension UI
 - Template management system
-- Custom field mapping interface
 - Real-time preview capabilities
 - Export/import configuration
 
