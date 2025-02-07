@@ -8,27 +8,39 @@ Medispeak is an open-source voice-to-EMR documentation tool that enables healthc
 ### How does Medispeak work?
 Medispeak uses advanced AI technology to convert spoken medical notes into structured data that can be automatically inserted into appropriate EMR fields. It combines speech recognition, medical terminology processing, and context understanding to provide accurate documentation.
 
+### Which EMR systems are compatible with Medispeak?
+Medispeak offers:
+- **Native Integration** with:
+  - Open Healthcare Network's CARE
+  - Bahmni Open Source EMR
+- **Custom Integration** with any web-based EMR through the Medispeak Admin interface
+
+### How do I set up integration with my EMR?
+- For CARE and Bahmni: Simply specify the EMR system in your configuration
+- For other web-based EMRs:
+  1. Access the Medispeak Admin interface
+  2. Configure your EMR connection details
+  3. Set up field mappings
+  4. Test and deploy the configuration
+
 ### Is Medispeak HIPAA compliant?
 Yes, Medispeak is designed with HIPAA compliance in mind. All data transmission is encrypted, and we follow strict privacy and security protocols to protect patient information.
 
 ## Installation & Setup
 
 ### How do I install Medispeak?
-Medispeak can be installed either as a Chrome extension or integrated into your web application. See our [Installation Guide](/docs/installation) for detailed instructions.
-
-### Which EMR systems are compatible with Medispeak?
-Medispeak is designed to work with any EMR system through our universal integration framework. Common supported systems include:
-- Epic
-- Cerner
-- Allscripts
-- athenahealth
-- And many more
+Medispeak can be installed either as a Chrome extension (developer mode) or integrated into your web application. See our [Installation Guide](/docs/installation) for detailed instructions.
 
 ### What are the system requirements?
 - Chrome browser (latest version) for extension
 - Stable internet connection
 - Microphone access
-- Modern web browser for web integration
+- Web-based EMR system
+
+### Can I customize the field mappings?
+Yes, you can customize field mappings:
+- For supported EMRs (CARE, Bahmni): Automatic mapping is provided
+- For other EMRs: Use the Medispeak Admin interface to configure custom mappings
 
 ## Usage
 
@@ -44,8 +56,6 @@ Yes, you can edit any transcribed text manually. Medispeak provides a review int
 ### What languages are supported?
 Currently, Medispeak primarily supports English, with plans to add support for additional languages. See our [Future Projects](/docs/projects) page for more information.
 
-## Technical Questions
-
 ### How accurate is the voice recognition?
 Medispeak achieves over 95% accuracy for medical terminology in optimal conditions. Accuracy can be improved by:
 - Using a good quality microphone
@@ -56,6 +66,31 @@ Medispeak achieves over 95% accuracy for medical terminology in optimal conditio
 ### Can I use Medispeak offline?
 The Chrome extension has limited offline capabilities for voice capture, but internet connectivity is required for processing and EMR integration.
 
+## EMR Integration
+
+### How does the CARE integration work?
+The CARE integration is built-in and provides:
+- Automatic field detection
+- Pre-configured mappings
+- Seamless data synchronization
+- Real-time updates
+
+### How does the Bahmni integration work?
+Bahmni integration features:
+- Native form detection
+- Automatic field mapping
+- Support for custom forms
+- Direct data population
+
+### Can I integrate with other EMR systems?
+Yes, any web-based EMR can be integrated using the Medispeak Admin interface:
+- Configure connection details
+- Set up custom field mappings
+- Define data validation rules
+- Test and verify integration
+
+## Security & Privacy
+
 ### How is my data protected?
 - End-to-end encryption
 - Secure data transmission
@@ -63,50 +98,10 @@ The Chrome extension has limited offline capabilities for voice capture, but int
 - HIPAA-compliant storage
 - Automatic data purging
 
-## Troubleshooting
+### Where is the data processed?
+Voice processing and data structuring happen on secure servers. For supported EMRs, data is directly transmitted to your EMR system through secure channels.
 
-### The microphone isn't working
-1. Check browser permissions
-2. Verify microphone connection
-3. Test microphone in system settings
-4. Clear browser cache
-5. Restart browser
-
-### Voice recognition isn't accurate
-- Check microphone placement
-- Reduce background noise
-- Speak clearly and at a natural pace
-- Update your browser
-- Check internet connection
-
-### EMR integration isn't working
-1. Verify API credentials
-2. Check network connectivity
-3. Confirm field mappings
-4. Clear browser cache
-5. Contact support if issues persist
-
-## Customization
-
-### Can I customize voice commands?
-Yes, Medispeak allows customization of:
-- Voice commands
-- Field mappings
-- Templates
-- Shortcuts
-- UI preferences
-
-### How do I create templates?
-1. Navigate to Settings
-2. Select "Templates"
-3. Click "Create New"
-4. Define fields and structure
-5. Save and name your template
-
-### Can I share templates with colleagues?
-Yes, templates can be shared within your organization or exported for use by other Medispeak users.
-
-## Support
+## Support & Troubleshooting
 
 ### How do I get help?
 - Check our [documentation](/docs/intro)
@@ -126,20 +121,6 @@ Yes, templates can be shared within your organization or exported for use by oth
 - Join community discussions
 - Participate in roadmap planning
 - Consider contributing
-
-## Billing & Licensing
-
-### Is Medispeak free?
-Medispeak is open-source and free to use. However, some advanced features or enterprise support may require a subscription.
-
-### What support options are available?
-- Community support (free)
-- Enterprise support
-- Custom development
-- Training services
-
-### Can I use Medispeak commercially?
-Yes, Medispeak is available under an open-source license that permits commercial use. Review our license terms for details.
 
 ## Contributing
 
