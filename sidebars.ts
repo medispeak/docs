@@ -26,8 +26,28 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
+      label: "Projects",
+      items: [
+        "projects",
+        "projects/proposal-template",
+        {
+          type: "category",
+          label: "Project Ideas",
+          items: [
+            "projects/open-source-ai",
+            "projects/self-hosted-whisper",
+            "projects/multiple-recording",
+            "projects/ui-setup",
+            "projects/smart-navigation",
+            "projects/live-transcription",
+          ],
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Community",
-      items: ["contribute", "projects"],
+      items: ["contribute"],
     },
     {
       type: "category",

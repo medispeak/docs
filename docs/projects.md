@@ -34,7 +34,7 @@ Welcome to Medispeak's project hub! Here you'll find our ongoing initiatives to 
 - **Focus**: Frontend
 - Voice-controlled EMR navigation with context awareness
 
-### [Live Transcription with Whisper](/docs/projects/live-transcription)
+### [Live Transcription with Multimodal LLMs](/docs/projects/live-transcription)
 - **Complexity**: Large
 - **Time**: 100-120 hours
 - **Focus**: Backend
